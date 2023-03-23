@@ -74,6 +74,11 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "repositories": {
+        "dev-extensions": {
+            "type": "path",
+            "url": "extensions/*",
+            "canonical": false
+        },
         "repo.magento.com": {
             "type": "composer",
             "url": "https://repo.magento.com/"
