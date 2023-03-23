@@ -76,9 +76,10 @@
     "repositories": {
         "dev-extensions": {
             "type": "path",
-            "url": "../extensions/*"
+            "url": "extensions/*",
+            "canonical": false
         },
-        "0": {
+        "repo.magento.com": {
             "type": "composer",
             "url": "https://repo.magento.com/"
         }
