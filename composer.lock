@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7c297c9cc0a7cc9445fb5691cabb4ddf",
+    "content-hash": "5d5aeb40763e0fa9d66b559ce4512879",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -20285,6 +20285,40 @@
             "time": "2022-07-20T18:31:45+00:00"
         },
         {
+            "name": "sergiy-decima/magento-the-best-module",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sergiy-decima/magento-the-best-module.git",
+                "reference": "42ad90b214fdbab80a8567eee8b65f91632d8cc4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sergiy-decima/magento-the-best-module/zipball/42ad90b214fdbab80a8567eee8b65f91632d8cc4",
+                "reference": "42ad90b214fdbab80a8567eee8b65f91632d8cc4",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "103.0.*",
+                "magento/module-catalog": "104.0.*",
+                "php": "~8.1.0||~8.2.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "psr-4": {
+                    "Decima\\TheBestModule\\": ""
+                },
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "support": {
+                "source": "https://github.com/sergiy-decima/magento-the-best-module/tree/1.0.0",
+                "issues": "https://github.com/sergiy-decima/magento-the-best-module/issues"
+            },
+            "time": "2023-03-28T19:56:17+00:00"
+        },
+        {
             "name": "spomky-labs/aes-key-wrap",
             "version": "v7.0.0",
             "source": {
@@ -27615,5 +27649,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.2.0"
 }
