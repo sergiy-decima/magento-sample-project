@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5d5aeb40763e0fa9d66b559ce4512879",
+    "content-hash": "36f5e5f40b7041f2925a64f77448eefe",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -20285,23 +20285,57 @@
             "time": "2022-07-20T18:31:45+00:00"
         },
         {
-            "name": "sergiy-decima/magento-the-best-module",
+            "name": "sergiy-decima/magento-core-module",
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/sergiy-decima/magento-the-best-module.git",
-                "reference": "42ad90b214fdbab80a8567eee8b65f91632d8cc4"
+                "url": "https://github.com/sergiy-decima/magento-core-module.git",
+                "reference": "02b863efcdfa6f0632657889796090ec36c44401"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sergiy-decima/magento-the-best-module/zipball/42ad90b214fdbab80a8567eee8b65f91632d8cc4",
-                "reference": "42ad90b214fdbab80a8567eee8b65f91632d8cc4",
+                "url": "https://api.github.com/repos/sergiy-decima/magento-core-module/zipball/02b863efcdfa6f0632657889796090ec36c44401",
+                "reference": "02b863efcdfa6f0632657889796090ec36c44401",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "103.0.*",
+                "php": "~8.1.0||~8.2.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "psr-4": {
+                    "Decima\\Core\\": ""
+                },
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "support": {
+                "source": "https://github.com/sergiy-decima/magento-core-module/tree/1.0.0",
+                "issues": "https://github.com/sergiy-decima/magento-core-module/issues"
+            },
+            "time": "2023-03-28T23:29:22+00:00"
+        },
+        {
+            "name": "sergiy-decima/magento-the-best-module",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sergiy-decima/magento-the-best-module.git",
+                "reference": "de0aeb28943deded975f716d66d16ee7ec7cc2ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sergiy-decima/magento-the-best-module/zipball/de0aeb28943deded975f716d66d16ee7ec7cc2ae",
+                "reference": "de0aeb28943deded975f716d66d16ee7ec7cc2ae",
                 "shasum": ""
             },
             "require": {
                 "magento/framework": "103.0.*",
                 "magento/module-catalog": "104.0.*",
-                "php": "~8.1.0||~8.2.0"
+                "php": "~8.1.0||~8.2.0",
+                "sergiy-decima/magento-core-module": "1.0.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -20313,10 +20347,10 @@
                 ]
             },
             "support": {
-                "source": "https://github.com/sergiy-decima/magento-the-best-module/tree/1.0.0",
+                "source": "https://github.com/sergiy-decima/magento-the-best-module/tree/1.0.1",
                 "issues": "https://github.com/sergiy-decima/magento-the-best-module/issues"
             },
-            "time": "2023-03-28T19:56:17+00:00"
+            "time": "2023-03-31T16:17:32+00:00"
         },
         {
             "name": "spomky-labs/aes-key-wrap",
